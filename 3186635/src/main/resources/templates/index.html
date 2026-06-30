@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}">
+</head>
+
+<!--Encabezado principal-->
+<body>
+    <header class="headerInicio">
+        <a href="index.html" class="logo-link">
+            <img src="/img/logo1.webp" alt="Logo El club de los peludos" class="img-logo">
+        </a>
+            <nav class="menu">
+                <a href="#nosotros" class="menu-btn">Nosotros</a>
+                <a href="#anuncios" class="menu-btn">Anuncios</a>
+                <a href="#contacto" class="menu-btn">Contacto</a>
+            </nav>
+
+    </header>
+    <!--CUERPO DE PAGINA-->
+
+    <main>
+        <!--Seccion de ofertas-->
+
+        <section class="ofertas">
+
+            <h2 class="ofertas-mascotas">Ofertas Especiales</h2>
+
+            <div class="ofertas-propiedades">
+                <div class="promo">
+                    <img src="/img/producto1.webp" alt="Alimentos" class="img-promo">
+                    <h3>Alimentos</h3>
+                    <p>Descubre las mejores ofertas en alimentos</p>
+                    <a href="#" class="btn-mas">Ver mas!!!</a>
+                </div>
+
+                <div class="promo">
+                    <img src="/img/Producto22.webp" alt="Juguetes" class="img-promo">
+                    <h3>Juguetes Para tu Mascota</h3>
+                    <p>Demuestrale a tu mascota que la quieres mucho</p>
+                    <a href="#" class="btn-mas">Ver mas!!!</a>
+                </div>
+
+                <div class="promo">
+                    <img src="/img/Producto33.webp" alt="Snaks" class="img-promo">
+                    <h3>Snaks</h3>
+                    <p>Sorprende a tu mascota con un rico premio</p>
+                    <a href="#" class="btn-mas">Ver mas!!!</a>
+                </div>
+            </div>
+        </section>
+
+        <!--bloque Quienes Somos-->
+
+        <section class="section1" id="nosotros">
+            <img src="/img/fondo1.webp" alt="fondo imagen" class="imagen_home">
+            <div class="section1-text">
+                <h3>¿Quienes Somos?</h3>
+                <p>Somos mucho más que una tienda de mascotas; somos una familia dedicada apasionadamente al bienestar,
+                    la alegría y el amor incondicional de tus compañeros de cuatro patas (¡y los de plumas y escamas
+                    también!).
+                </p>
+                <p>Nacimos de la profunda convicción de que cada mascota merece lo mejor: la nutrición más saludable,
+                    los juguetes más seguros y los cuidados más cariñosos. En "El Club de los Peludos", no vemos a tu
+                    perro, gato, hámster o pez como simples animales, sino como miembros valiosos y peludos de tu hogar.
+                </p>
+
+                <p>¡Únete al Club! Estamos aquí para ser tu aliado en la aventura de tener una mascota. ¡Porque cuando
+                    se trata de ellos, solo la máxima felicidad es suficiente!
+                </p>
+            </div>
+        </section>
+
+        <!--bloque ANUNCIOS-->
+
+        <section class="ads-section" id="anuncios">
+            <h2>Anuncios</h2>
+            <div class="anuncios">
+
+                <article class="aununcio-item">
+                    <img src="/img/anuncio22.webp" alt="anuncios" class="img-anuncio">
+                    <h3>¡Solo 48 Horas! El Juguete Favorito al 30% OFF</h3>
+                    <p>Es el momento de consentirlos sin gastar de más. Ahorra en nuestros best-sellers: camas
+                        ortopédicas, rascadores resistentes y los juguetes más buscados. La oferta termina pronto.
+                    </p>
+                </article>
+                <article class="aununcio-item">
+                    <img src="/img/anuncio11.webp" alt="anuncios" class="img-anuncio">
+                    <h3>La Felicidad de tu Mascota Comienza Aquí</h3>
+                    <p>¿Le falta vitalidad a tu peludo? Descubre nuestra selección premium de alimentos y suplementos
+                        diseñados por expertos. Menos visitas al veterinario, más momentos de juego.
+                    </p>
+                </article>
+                <article class="aununcio-item">
+                    <img src="/img/anuncio33.webp" alt="anuncios" class="img-anuncio">
+                    <h3>Productos para Mascotas de Máxima Seguridad y Calidad</h3>
+                    <p>No te conformes con menos. Solo vendemos marcas probadas, libres de tóxicos y con garantía de
+                        satisfacción. Tu tranquilidad es nuestra prioridad. Envíos rápidos y seguros a todo el país.
+                    </p>
+                </article>
+                <article class="aununcio-item">
+                    <img src="/img/anuncio44.webp" alt="anuncios" class="img-anuncio">
+                    <h3>Más que una Tienda: Únete a la Manada</h3>
+                    <p>¿Tienes dudas sobre el entrenamiento o el mejor cuidado? Recibe consejos de expertos, guías
+                        exclusivas y los mejores productos seleccionados por dueños como tú. Mejora la vida de tu
+                        mascota y la tuya.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+
+            <div class="footer-links">
+                <a href="#nosotros">Nosotros</a>
+                <a href="#anuncios">Anuncios</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-brand">
+                <h3>El Club de los Peludos</h3>
+                <p>Cuidamos y consentimos a tus mascotas.</p>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: contacto@clubdelospeludos.com</p>
+                <p>WhatsApp: +57 300 000 0000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 El Club de los Peludos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
