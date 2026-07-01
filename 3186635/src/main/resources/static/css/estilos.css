@@ -1,4 +1,4 @@
-headerInicio {
+.headerInicio {
     height: 30vh;
     background-image:
             linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -22,7 +22,7 @@ header .img-logo {
 
 
 body {
-    background-color: #F3C082;
+    background-color: #493d2f;
     margin: 0px;
 }
 
@@ -68,7 +68,7 @@ menu {
     gap: 0px;
 }
 
-menu-btn {
+.menu-btn {
     display: inline-block;
     padding: 0.6rem 1.2rem;
     border-radius: 10px;
@@ -79,12 +79,12 @@ menu-btn {
     font-weight: 700;
 }
 
-menu-btn:hover {
+.menu-btn:hover {
     background-color: #F3C082;
     border-color: #F3C082;
 }
 
-btn-mas {
+.btn-mas {
     display: inline-block;
     padding: 0.6rem 1.2rem;
     border-radius: 10px;
@@ -96,7 +96,7 @@ btn-mas {
     font-family: sans-serif;
 }
 
-btn-mas:hover {
+.btn-mas:hover {
     background-color: #F3C082;
     border-color: #F3C082;
 }
@@ -115,7 +115,7 @@ h3 {
     text-align: center;
 }
 
-section1 {
+.section1 {
     background-color: #F2E0CB;
     display: flex;
     justify-content: space-around;
@@ -123,21 +123,21 @@ section1 {
     text-align: justify;
 }
 
-contacto {
+.contacto {
     background-color: #F2E0CB;
 }
 
-section1-text {
+.section1-text {
     max-width: 500px;
     font-family: sans-serif;
 }
 
-img-anuncio {
+.img-anuncio {
     max-width: 100%;
     height: auto;
 }
 
-anuncios {
+.anuncios {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
@@ -150,20 +150,20 @@ anuncios {
     padding: 20px 0px;
 }
 
-ads-section {
+.ads-section {
     padding: 40px 5%;
     background: #F3C082;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-ads-section h2 {
+.ads-section h2 {
     font-size: 2rem;
     margin-bottom: 30px;
     color: #2b2b2b;
 }
 
-aununcio-item {
+.aununcio-item {
     background: #e9a96e;
     border-radius: 16px;
     padding: 18px 16px 20px;
@@ -172,12 +172,12 @@ aununcio-item {
     cursor: pointer;
 }
 
-aununcio-item:hover {
+.aununcio-item:hover {
     transform: translateY(-6px);
     box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
 }
 
-aununcio-item img {
+.aununcio-item img {
     width: 100%;
     max-width: 140px;
     height: auto;
@@ -186,25 +186,25 @@ aununcio-item img {
     margin-bottom: 12px;
 }
 
-aununcio-item h3 {
+.aununcio-item h3 {
     font-size: 1rem;
     margin: 6px 0 4px;
     color: #333;
 }
 
-aununcio-item p {
+.aununcio-item p {
     font-size: 0.9rem;
     color: #000000;
 }
 
 
-video-hero {
+.video-hero {
     background: #111;
     /* bandas oscuras arriba/abajo */
     padding: 40px 0;
 }
 
-video-wrapper {
+.video-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,7 @@ video-wrapper {
     background-color: #111;
 }
 
-video-wrapper video {
+.video-wrapper video {
     width: 80%;
     max-width: 900px;
     /* parecido a un video grande centrado */
@@ -220,24 +220,24 @@ video-wrapper video {
 }
 
 /* Imagen ancho completo */
-video-hero {
+.video-hero {
     background: #111;
     padding: 40px 0;
 }
 
-video-wrapper {
+.video-wrapper {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
     background: #000;
 }
-video-wrapper video {
+.video-wrapper video {
     max-width:  100%;
     height: auto;
     display: block;
 }
 
-play-btn {
+.play-btn {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -255,28 +255,28 @@ play-btn {
     transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
-play-btn::before {
+.play-btn::before {
     content: "";
     border-style: solid;
     border-width: 12px 0 12px 20px;   /* tamaño del triángulo */
     border-color: transparent transparent transparent #fff;
     margin-left: 4px;
 }
-play-btn:hover {
+.play-btn:hover {
     transform: scale(1.05);
     background: rgba(0, 0, 0, 0.6);
 }
 
-play-btn.hide {
+.play-btn.hide {
     display: none;
 }
 
-img-banner {
+.img-banner {
     max-width: 100%;
     height: auto;
 }
 
-img-logo {
+.img-logo {
     border-radius: 15px;
     position: absolute;
     top: 20px;
@@ -285,7 +285,7 @@ img-logo {
     max-width: 100%;
 }
 
-img-promo:hover {
+.img-promo:hover {
     max-width: 100%;
     height: auto;
     object-fit: cover;
@@ -293,14 +293,14 @@ img-promo:hover {
     border-radius: 30px;
 }
 
-imagen_home {
+.imagen_home {
     border-radius: 20px;
     max-width: 100%;
     height: auto;
 
 }
 
-ofertas {
+.ofertas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,17 +308,17 @@ ofertas {
     padding: 10px 0px;
 }
 
-ofertas-propiedades {
+.ofertas-propiedades {
     display: flex;
     gap: 2rem;
 }
 
-ofertas-mascotas {
+.ofertas-mascotas {
     font-size: 2rem;
     text-align: center;
 }
 
-promo {
+.promo {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -330,12 +330,12 @@ promo {
 
 }
 
-promo h3 {
+.promo h3 {
     margin: 1rem 0 0.5rem;
     font-family: sans-serif;
 }
 
-promo p {
+.promo p {
     margin: 0 1rem 1rem;
     font-family: sans-serif;
 }
@@ -350,7 +350,7 @@ footer {
     margin-top: 40px;
 }
 
-footer-top {
+.footer-top {
     max-width: 1100px;
     margin: 0 auto 20px;
     display: flex;
@@ -360,25 +360,25 @@ footer-top {
     align-items: flex-start;
 }
 
-footer-brand h3 {
+.footer-brand h3 {
     margin: 0 0 8px;
     font-size: 1.3rem;
 }
 
-footer-brand p {
+.footer-brand p {
     margin: 0;
     font-size: 0.95rem;
     opacity: 0.85;
 }
 
 /* enlaces */
-footer-links {
+.footer-links {
     display: flex;
     flex-direction: row;
     gap: 36px;
 }
 
-footer-links a {
+.footer-links a {
     color: #f9f2e9;
     text-decoration: none;
     font-size: 0.95rem;
@@ -386,20 +386,20 @@ footer-links a {
     transition: opacity 0.2s ease, transform 0.15s ease;
 }
 
-footer-links a:hover {
+.footer-links a:hover {
     opacity: 1;
     transform: translateX(2px);
 }
 
 /* contacto */
-footer-contact p {
+.footer-contact p {
     margin: 0;
     font-size: 0.9rem;
     opacity: 0.9;
 }
 
 /* parte inferior --  footer */
-footer-bottom {
+.footer-bottom {
     border-top: 1px solid rgba(249,242,233,0.15);
     text-align: center;
     padding-top: 10px;
@@ -409,7 +409,7 @@ footer-bottom {
 
 /* responsive */
 @media (max-width: 768px) {
-    footer-top {
+    .footer-top {
         flex-direction: column;
         align-items: flex-start;
 
