@@ -1,4 +1,4 @@
-package com.supermercado._5.controller;
+package com.elclubdelospeludos.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

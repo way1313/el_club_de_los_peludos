@@ -1,4 +1,4 @@
-package com.supermercado._5.services;
+package com.elclubdelospeludos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

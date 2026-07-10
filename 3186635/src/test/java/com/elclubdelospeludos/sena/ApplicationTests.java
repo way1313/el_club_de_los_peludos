@@ -1,4 +1,4 @@
-package com.supermercado._5;
+package com.elclubdelospeludos.sena;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
